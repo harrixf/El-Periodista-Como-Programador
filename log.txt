@@ -1,8 +1,224 @@
+commit bd9e69c83bddb7833501ec220d1c65af97961969
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 11:46:13 2016 +0000
+
+    He probado el Markdown de Git en este archivo con diferentes sintáxis
+
+ README.md | 17 ++++++++++++++++-
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+
+commit d23cb1d0d51b573ac174d25cf7d6a33e8b641b7b
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 11:07:06 2016 +0000
+
+    Otro archivo
+
+ notas.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c8a9abdcdbacad5fd898dd46a7df931399b2b9a8
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:59:34 2016 +0000
+
+    He creado la clase .limpiar que permitirá limpiar los elementos flotantes del index.html
+
+ style/style.css | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 85d7911d08583512cbc76e27145d0e9fd6c198ba
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:58:55 2016 +0000
+
+    He creado un div vacío para limpiar los elementos flotantes
+
+ index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 456ec1d3c5d95f2371794951a89142f88c6a20f1
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:55:57 2016 +0000
+
+    He creado este archivo vacío para poder subir la carpeta js/
+
+ js/archivo2.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 9ad18c5aceb143bc482b3fe77dba8f5bb01e815d
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:54:22 2016 +0000
+
+    He creado este archivo para poder subir la carpeta contenido/
+
+ contenido/archivo1.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 8c3e6500e6eadeaa17e5d1f506a86bad4405ddf0
+Author: harrixf <harri.fernandez@gmail.com>
+Date:   Thu May 5 12:48:08 2016 +0200
+
+    Delete .gitkeep
+
+ contenido/.gitkeep | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 57f89cf1f36496b295e82a52d6f4e4c6df1b4a27
+Author: harrixf <harri.fernandez@gmail.com>
+Date:   Thu May 5 12:46:52 2016 +0200
+
+    Delete notas.md
+
+ notas.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit bf9a385f558264979b1265135c12d5bc7b3c8384
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:40:41 2016 +0000
+
+    Ante la imposibilidad de poder subir carpetas vacías a GitHub he descubierto este sistema para hacerlo. Creando primero el archivo .gitkeep y luego ignorando los archivos mediante .gitignore
+
+ contenido/.gitkeep | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit b7359c16dc2f44e7d5a03c39c2d26aca527b79e6
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:33:18 2016 +0000
+
+    He añadido los estilos necesarios para que la imagen se reduzca y flote a la izquierda del texto
+
+ index.html      | 11 +++++++----
+ style/style.css | 12 +++++++++++-
+ 2 files changed, 18 insertions(+), 5 deletions(-)
+
+commit 6763a4d823f3f701d2edf19c0234714c10ccb6d6
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:19:00 2016 +0000
+
+    He añadido el logo de Git
+
+ images/git.jpg | Bin 0 -> 35108 bytes
+ index.html     |  11 +++++++----
+ 2 files changed, 7 insertions(+), 4 deletions(-)
+
+commit 728a67d700e1049a1fb94b8a5f949756c7c77a86
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:13:30 2016 +0000
+
+    He añadido nuevos estilos de párrafo
+
+ style/style.css | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+commit ccfd9be04ce3bb236543b017ba1610a76df813f0
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:10:59 2016 +0000
+
+    He añadido párrafos con texto falso y saltos de línea entre párrafos
+
+ index.html      |  5 +++++
+ style/style.css | 13 ++++++++++---
+ 2 files changed, 15 insertions(+), 3 deletions(-)
+
+commit 0e5da56e2d4c938cb8ce485df188f2151b65176a
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:04:18 2016 +0000
+
+    Vuelvo añadir el <link> al reset.css
+
+ index.html | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit b7e43991957436049836eea2d75b38a38fa14677
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:03:32 2016 +0000
+
+    De nuevo creo el archivo reset.css
+
+ style/reset.css | 96 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 96 insertions(+)
+
+commit 7c2e2bd6f86ab6a092851dbf052703e73a22cbf5
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 10:02:10 2016 +0000
+
+    La ruta a la carpeta estilos no era correcta. Probablemente ese era el origen del conflicto con el reset.css
+
+ index.html      | 4 ++--
+ style/style.css | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 9ea0653506bb076128eeadc91396721eb3e78e48
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 09:59:48 2016 +0000
+
+    He creado un <div> para que sostenga el contenido
+
+ index.html | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 4b59b89bda0190d1b2279a6e1d74462036db9992
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 09:56:56 2016 +0000
+
+    Reset.css me generaba un conflicto y he decidido eliminar esa hoja de estilos
+
+ index.html      |  1 -
+ style/reset.css | 96 ---------------------------------------------------------
+ style/style.css | 11 ++++++-
+ 3 files changed, 10 insertions(+), 98 deletions(-)
+
+commit 8b1c60671dc2e733089dc003cc5e0df13106ea27
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 09:47:19 2016 +0000
+
+    He añadido el <link> del reset.css
+
+ index.html | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 4f81e002329c55b2679ac5efaf82f4237ea45e23
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 09:46:19 2016 +0000
+
+    He creado una nueva hoja de estilo que me sirve para resetear estilos
+
+ style/reset.css | 96 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 96 insertions(+)
+
+commit 95bb80fa1141cec959d3d8f0faf71698c88ec255
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 09:43:51 2016 +0000
+
+    He empezado a redactar los estilos CSS aplicando al <body> unos estilos que nos facilitarán el trabajo en el caso de que queramos que la web sea responsive
+
+ style/style.css | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit caecfdaa8b1c7d6a432153b10c56dbfa2bff1b0e
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Thu May 5 09:34:55 2016 +0000
+
+    He añadido al <head> contenido <meta> y también el <link> para los estilos CSS
+
+ index.html | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 53c831e2d07549d7d55bda6c1739bca4999338c6
+Author: Harri <harri.fernandez@gmail.com>
+Date:   Wed May 4 14:48:17 2016 +0000
+
+    Esta es la primera versión del log que hago de prueba. Cuando termine la actividad crearé el definitivo
+
+ log.txt | 53 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 53 insertions(+)
+
 commit 3cb350088bff123fb5b5ca378572ada4e58d5036
 Author: Harri <harri.fernandez@gmail.com>
 Date:   Wed May 4 14:15:46 2016 +0000
 
     Este un archivo demás
+
+ todo.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 
 commit c3df580c75a24e55e62639c66f8c5e0d492e89f5
 Author: Harri <harri.fernandez@gmail.com>
@@ -10,11 +226,17 @@ Date:   Wed May 4 14:14:43 2016 +0000
 
     En este archivo explico cuál ha sido el proceso del trabajo y con qué dificultades me he encontrado
 
+ notas.md | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
 commit 8002b5b16a65a39cdceed6c40c31749f9eca0282
 Author: Harri <harri.fernandez@gmail.com>
 Date:   Wed May 4 13:21:40 2016 +0000
 
     He modificado el Markdown del título del archivo
+
+ copyright.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit 361e91037202a62e87f5eed7b38cc4b1e0fa3680
 Author: Harri <harri.fernandez@gmail.com>
@@ -22,11 +244,17 @@ Date:   Wed May 4 13:20:33 2016 +0000
 
     He creado este archivo, simplemente, para referenciar a quién pertenece el repositorio
 
+ copyright.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
 commit 768c3e9bbb1004d87ed5445a2a7d2ea4cd9ae515
 Author: Harri <harri.fernandez@gmail.com>
 Date:   Wed May 4 13:15:59 2016 +0000
 
     Comienzo a elaborar este archivo con Markdown
+
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 
 commit 48e66b58e12e28ce3c29c39500086007ca0b67e1
 Author: Harri <harri.fernandez@gmail.com>
@@ -34,11 +262,17 @@ Date:   Wed May 4 11:32:25 2016 +0000
 
     Antes de comenzar a escribir código en style.css he decidido mover el archivo de la raiz a la carpeta style/ para ordenar mejor el árbol
 
+ style/style.css | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
 commit 11c6a588bdfa2ebe7c7f2be7c982009099349526
 Author: Harri <harri.fernandez@gmail.com>
 Date:   Wed May 4 11:08:20 2016 +0000
 
     He modificado el <title> y he comenzado ha desarrollar el body con <h1> y <h2>
+
+ index.html | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
 commit ea4a756cb799fffa36f54ec72ea83caee0f9113a
 Author: Harri <harri.fernandez@gmail.com>
@@ -46,8 +280,14 @@ Date:   Wed May 4 10:41:36 2016 +0000
 
     He añadido la estructura básica del html. El Doctype. El head y el body
 
+ index.html | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
 commit 13e63a7677ff271c0cbfd71f8171e5215031705e
 Author: harrixf <harri.fernandez@gmail.com>
 Date:   Wed May 4 12:05:41 2016 +0200
 
     Initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
