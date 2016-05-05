@@ -3,11 +3,18 @@ body {
 	}
 
 h1{font-family: "Trebuchet MS", Helvetica, sans-serif;
-font-size: 10px;
+font-size: 30px;
+display: block;
+margin-bottom: 10px;
 }
-h2{
-    
+h2{font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
 }
 p{
     
+}
+#contenido{
+    padding-left:20px;
+    padding-top: 20px;
 }
