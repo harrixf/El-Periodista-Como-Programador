@@ -10,6 +10,8 @@ margin-bottom: 10px;
 h2{font-family: "Trebuchet MS", Helvetica, sans-serif;
 font-size: 18px;
 font-weight: bold;
+display: block;
+margin-bottom: 10px;
 }
 p{
     font-family: Arial;
@@ -17,7 +19,15 @@ p{
     line-height: normal;
 }
 
+
 #contenido{
     padding-left:20px;
     padding-top:20px;
 }
+#contenido img{
+    width:500px;
+    height:236px;
+    margin-right:5px;
+    margin-bottom: 5px;
+}
+.izquierda{float:left;}
